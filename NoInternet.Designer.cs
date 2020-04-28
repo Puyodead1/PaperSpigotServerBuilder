@@ -60,7 +60,6 @@
             this.ShowInTaskbar = false;
             this.Text = "No Internet";
             this.TopMost = true;
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.NoInternet_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

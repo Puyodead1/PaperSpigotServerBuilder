@@ -41,7 +41,7 @@ namespace PaperSpigotServerBuilder
             this.Hide();
             if (connection)
             {
-                var mainForm = new MainForm();
+                var mainForm = new mainForm();
                 mainForm.ShowDialog();
                 this.Close();
             } else

@@ -34,10 +34,5 @@ namespace PaperSpigotServerBuilder
         {
             InitializeComponent();
         }
-
-        private void NoInternet_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Environment.Exit(1);
-        }
     }
 }
